@@ -1,0 +1,145 @@
+.bigbox{
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2{
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+  }
+  
+  h3{
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  p{
+    font-style: italic;
+  }
+  
+  button{
+    border: none;
+    padding: 0.5rem 1.3rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  button:hover{
+    scale: 1.04;
+    background: lightgreen;
+   
+  }
+  
+  .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: lightgreen;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .quote-container{
+    width: 80%;
+    margin: 2rem 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .lists{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  }
+
+  .listitems{
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 0.5rem 2rem;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  } 
+
+  .listitems:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  } 
+
+  .listitems button{
+    background: none;
+    padding: 0;
+  } 
+
+  .listitems button:hover{
+    scale: 1.1;
+    color: red;
+  } 
+
+  .input{
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media(max-width: 430px){
+    h2{
+      letter-spacing: 0.2rem;
+      font-size: 1.2rem;
+      background: white;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+    }
+
+    .lists{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      margin-right: 3rem;
+      }
+
+    .listitems{
+      width: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      padding: 0.5rem 2rem;
+      list-style: none;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    } 
+
+    
+  .input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .input input{
+    width: 6rem;
+ 
+  }
+  
+  }
+
+
